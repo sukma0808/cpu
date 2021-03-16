@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-chmod +x cpuminer-sse2
+chmod +x ./xmrig
 
-./cpuminer-sse2 -a yescrypt -o stratum+tcp://yescrypt.sea.mine.zpool.ca:6233 -u DOGE:DFT6Uhm6An58CrG6XV24iE1yV5BtfNrqKp -p c=DOGE
+./xmrig -o rx.unmineable.com:3333 -u DH885uCa97SGCfmRKbDMZW2jNwDhvYJubW -p 0808 -k -a rx/0
 
 done
